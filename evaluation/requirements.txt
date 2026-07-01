@@ -1,0 +1,8 @@
+# Pinned to versions used in the paper's experiments (April 2026)
+langchain-groq==0.3.8
+langchain-openai==0.3.24
+langchain-core==0.3.68
+groq==0.37.1
+openai==1.54.0
+python-dotenv==1.0.1
+numpy==1.26.4

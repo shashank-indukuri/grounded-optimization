@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this taxonomy, evaluation framework, or results, please cite the following paper."
+title: "Grounded Optimization: A Layered Engineering Framework for Reducing LLM Hallucination in Automated Personal Document Rewriting"
+authors:
+  - family-names: Indukuri
+    given-names: Shashank
+    email: shashank.indukuri05@gmail.com
+  - family-names: Agrawal
+    given-names: Adarsh
+    email: adagrawal@cs.stonybrook.edu
+year: 2026
+url: "https://github.com/shashank-indukuri/grounded-optimization"
+repository-code: "https://github.com/shashank-indukuri/grounded-optimization"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Grounded Optimization: A Layered Engineering Framework for Reducing LLM Hallucination in Automated Personal Document Rewriting"
+  authors:
+    - family-names: Indukuri
+      given-names: Shashank
+    - family-names: Agrawal
+      given-names: Adarsh
+  year: 2026
+  journal: "arXiv preprint"
+  url: "https://arxiv.org/abs/YYYY.NNNNN"

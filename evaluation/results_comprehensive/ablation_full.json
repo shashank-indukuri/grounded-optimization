@@ -1,0 +1,438 @@
+{
+  "model": "gpt-4.1-nano",
+  "config": "full",
+  "temperature": 0.0,
+  "n_resumes": 25,
+  "total_halls": {
+    "H1": 1,
+    "H2": 0,
+    "H3": 0,
+    "H4": 2,
+    "total": 3,
+    "errors": 0
+  },
+  "mean_hr": 0.12,
+  "std_hr": 0.325,
+  "ci_95": 0.1274,
+  "resume_rates": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "mean_latency": 1.217,
+  "n_calls": 42,
+  "details": [
+    {
+      "resume_id": "r01",
+      "role_idx": 0,
+      "title": "Senior Data Engineer",
+      "period": "2022-01-Present",
+      "halls": {},
+      "latency": 1.54,
+      "reverted": false
+    },
+    {
+      "resume_id": "r01",
+      "role_idx": 1,
+      "title": "Data Engineer",
+      "period": "2019-06-2021-12",
+      "halls": {},
+      "latency": 0.88,
+      "reverted": false
+    },
+    {
+      "resume_id": "r02",
+      "role_idx": 0,
+      "title": "Senior ML Engineer",
+      "period": "2021-03-Present",
+      "halls": {},
+      "latency": 1.47,
+      "reverted": false
+    },
+    {
+      "resume_id": "r02",
+      "role_idx": 1,
+      "title": "Data Scientist",
+      "period": "2018-09-2021-02",
+      "halls": {
+        "H4": [
+          "Title changed: 'Data Scientist' -> 'ML Engineer'"
+        ]
+      },
+      "latency": 1.08,
+      "reverted": false
+    },
+    {
+      "resume_id": "r03",
+      "role_idx": 0,
+      "title": "Senior DevOps Engineer",
+      "period": "2020-05-Present",
+      "halls": {},
+      "latency": 1.33,
+      "reverted": false
+    },
+    {
+      "resume_id": "r03",
+      "role_idx": 1,
+      "title": "Systems Administrator",
+      "period": "2017-01-2020-04",
+      "halls": {},
+      "latency": 1.13,
+      "reverted": false
+    },
+    {
+      "resume_id": "r04",
+      "role_idx": 0,
+      "title": "Senior Software Engineer",
+      "period": "2021-01-Present",
+      "halls": {},
+      "latency": 1.21,
+      "reverted": false
+    },
+    {
+      "resume_id": "r04",
+      "role_idx": 1,
+      "title": "Software Developer",
+      "period": "2018-06-2020-12",
+      "halls": {},
+      "latency": 1.32,
+      "reverted": false
+    },
+    {
+      "resume_id": "r05",
+      "role_idx": 0,
+      "title": "AI Engineer",
+      "period": "2023-06-Present",
+      "halls": {},
+      "latency": 1.09,
+      "reverted": false
+    },
+    {
+      "resume_id": "r05",
+      "role_idx": 1,
+      "title": "Backend Engineer",
+      "period": "2019-03-2023-05",
+      "halls": {},
+      "latency": 1.16,
+      "reverted": false
+    },
+    {
+      "resume_id": "r06",
+      "role_idx": 0,
+      "title": "Software Intern",
+      "period": "2024-06-2024-09",
+      "halls": {},
+      "latency": 0.92,
+      "reverted": false
+    },
+    {
+      "resume_id": "r07",
+      "role_idx": 0,
+      "title": "Principal Cloud Architect",
+      "period": "2020-01-Present",
+      "halls": {},
+      "latency": 3.33,
+      "reverted": false
+    },
+    {
+      "resume_id": "r08",
+      "role_idx": 0,
+      "title": "Senior Data Analyst",
+      "period": "2017-03-2019-12",
+      "halls": {},
+      "latency": 0.91,
+      "reverted": false
+    },
+    {
+      "resume_id": "r08",
+      "role_idx": 1,
+      "title": "Data Analyst",
+      "period": "2015-06-2017-02",
+      "halls": {},
+      "latency": 1.07,
+      "reverted": false
+    },
+    {
+      "resume_id": "r09",
+      "role_idx": 0,
+      "title": "Quantitative Analyst",
+      "period": "2016-01-2019-08",
+      "halls": {},
+      "latency": 0.97,
+      "reverted": false
+    },
+    {
+      "resume_id": "r10",
+      "role_idx": 0,
+      "title": "Senior Engineer",
+      "period": "2022-03-Present",
+      "halls": {},
+      "latency": 1.4,
+      "reverted": false
+    },
+    {
+      "resume_id": "r10",
+      "role_idx": 1,
+      "title": "Software Engineer",
+      "period": "2018-07-2022-02",
+      "halls": {},
+      "latency": 0.76,
+      "reverted": false
+    },
+    {
+      "resume_id": "r11",
+      "role_idx": 0,
+      "title": "Clinical Data Engineer",
+      "period": "2016-08-2019-11",
+      "halls": {},
+      "latency": 1.12,
+      "reverted": false
+    },
+    {
+      "resume_id": "r11",
+      "role_idx": 1,
+      "title": "Database Administrator",
+      "period": "2014-01-2016-07",
+      "halls": {},
+      "latency": 0.93,
+      "reverted": false
+    },
+    {
+      "resume_id": "r12",
+      "role_idx": 0,
+      "title": "Health Data Platform Lead",
+      "period": "2021-06-Present",
+      "halls": {},
+      "latency": 1.05,
+      "reverted": false
+    },
+    {
+      "resume_id": "r13",
+      "role_idx": 0,
+      "title": "Senior IT Analyst",
+      "period": "2016-04-2020-08",
+      "halls": {},
+      "latency": 1.07,
+      "reverted": false
+    },
+    {
+      "resume_id": "r13",
+      "role_idx": 1,
+      "title": "IT Support Specialist",
+      "period": "2013-09-2016-03",
+      "halls": {},
+      "latency": 0.96,
+      "reverted": false
+    },
+    {
+      "resume_id": "r14",
+      "role_idx": 0,
+      "title": "IoT Platform Engineer",
+      "period": "2020-11-Present",
+      "halls": {},
+      "latency": 1.32,
+      "reverted": false
+    },
+    {
+      "resume_id": "r15",
+      "role_idx": 0,
+      "title": "Senior Backend Engineer",
+      "period": "2020-02-Present",
+      "halls": {},
+      "latency": 0.96,
+      "reverted": false
+    },
+    {
+      "resume_id": "r15",
+      "role_idx": 1,
+      "title": "Backend Developer",
+      "period": "2017-05-2020-01",
+      "halls": {
+        "H4": [
+          "Title changed: 'Backend Developer' -> 'Senior Software Engineer'"
+        ]
+      },
+      "latency": 1.27,
+      "reverted": false
+    },
+    {
+      "resume_id": "r16",
+      "role_idx": 0,
+      "title": "Platform Engineer",
+      "period": "2021-09-Present",
+      "halls": {},
+      "latency": 1.12,
+      "reverted": false
+    },
+    {
+      "resume_id": "r17",
+      "role_idx": 0,
+      "title": "Data Analyst",
+      "period": "2015-03-2018-12",
+      "halls": {
+        "H1": [
+          "'rag' (released 2022) in role ending 2018"
+        ]
+      },
+      "latency": 1.05,
+      "reverted": false
+    },
+    {
+      "resume_id": "r17",
+      "role_idx": 1,
+      "title": "Junior Analyst",
+      "period": "2013-06-2015-02",
+      "halls": {},
+      "latency": 1.27,
+      "reverted": false
+    },
+    {
+      "resume_id": "r18",
+      "role_idx": 0,
+      "title": "IT Specialist",
+      "period": "2016-09-2021-06",
+      "halls": {},
+      "latency": 1.21,
+      "reverted": false
+    },
+    {
+      "resume_id": "r19",
+      "role_idx": 0,
+      "title": "Streaming Platform Engineer",
+      "period": "2021-01-Present",
+      "halls": {},
+      "latency": 1.35,
+      "reverted": false
+    },
+    {
+      "resume_id": "r19",
+      "role_idx": 1,
+      "title": "Software Developer",
+      "period": "2018-04-2020-12",
+      "halls": {},
+      "latency": 0.78,
+      "reverted": false
+    },
+    {
+      "resume_id": "r20",
+      "role_idx": 0,
+      "title": "Supply Chain Data Engineer",
+      "period": "2020-07-Present",
+      "halls": {},
+      "latency": 1.22,
+      "reverted": false
+    },
+    {
+      "resume_id": "r20",
+      "role_idx": 1,
+      "title": "Business Analyst",
+      "period": "2017-02-2020-06",
+      "halls": {},
+      "latency": 0.83,
+      "reverted": false
+    },
+    {
+      "resume_id": "r21",
+      "role_idx": 0,
+      "title": "Data Platform Engineer",
+      "period": "2022-04-Present",
+      "halls": {},
+      "latency": 1.26,
+      "reverted": false
+    },
+    {
+      "resume_id": "r21",
+      "role_idx": 1,
+      "title": "Network Data Analyst",
+      "period": "2017-08-2022-03",
+      "halls": {},
+      "latency": 1.05,
+      "reverted": false
+    },
+    {
+      "resume_id": "r22",
+      "role_idx": 0,
+      "title": "Actuarial Analyst",
+      "period": "2014-09-2018-05",
+      "halls": {},
+      "latency": 1.62,
+      "reverted": false
+    },
+    {
+      "resume_id": "r23",
+      "role_idx": 0,
+      "title": "Backend Engineer",
+      "period": "2021-05-Present",
+      "halls": {},
+      "latency": 1.12,
+      "reverted": false
+    },
+    {
+      "resume_id": "r23",
+      "role_idx": 1,
+      "title": "Web Developer",
+      "period": "2018-10-2021-04",
+      "halls": {},
+      "latency": 0.71,
+      "reverted": false
+    },
+    {
+      "resume_id": "r24",
+      "role_idx": 0,
+      "title": "Cloud Security Engineer",
+      "period": "2022-01-Present",
+      "halls": {},
+      "latency": 1.01,
+      "reverted": false
+    },
+    {
+      "resume_id": "r24",
+      "role_idx": 1,
+      "title": "Security Analyst",
+      "period": "2018-06-2021-12",
+      "halls": {},
+      "latency": 1.05,
+      "reverted": false
+    },
+    {
+      "resume_id": "r25",
+      "role_idx": 0,
+      "title": "Data Analyst",
+      "period": "2019-01-2023-06",
+      "halls": {},
+      "latency": 1.12,
+      "reverted": false
+    },
+    {
+      "resume_id": "r25",
+      "role_idx": 1,
+      "title": "Program Coordinator",
+      "period": "2016-05-2018-12",
+      "halls": {},
+      "latency": 3.11,
+      "reverted": false
+    }
+  ]
+}
